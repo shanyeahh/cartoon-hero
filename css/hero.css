@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+	background-color: paleturquoise;
+	font-family: Luminari, Georgia, Book Antiqua, serif;
+}
+
+header{
+	background-color: darkturquoise;
+	text-align: center;
+
+}
+
+header h1{
+	color: azure;
+
+}
+
+header img{
+
+	border-radius: 50%;
+	border-style: double;
+    width: 300px;
+}
