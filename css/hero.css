@@ -1,23 +1,68 @@
 body {
 	margin: 0px;
 	background-color: paleturquoise;
-	font-family: Luminari, Georgia, Book Antiqua, serif;
+	font-size: 15px;
+	font-family: Luminari, Georgia, Book Antiqua, sans-serif;
+	line-height: 30px;
 }
 
 header{
 	background-color: darkturquoise;
 	text-align: center;
-
-}
-
-header h1{
+	border-bottom: solid;
 	color: azure;
 
 }
 
+h1, h2{
+  font-family: "Audiowide", Luminari, Georgia, Book Antiqua, sans-serif;
+}
+
+}
+header h1{
+	color: azure;
+	font-size: 50px;
+
+}
+
+h2{
+
+	font-size: 25px;
+
+}
 header img{
 
 	border-radius: 50%;
 	border-style: double;
+	border-color: black;
     width: 300px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 5px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color:darkturquoise;
+	font-style: italic;
+}
+
+a:hover{
+	color: slateblue;
+	background-color: darkturquoise;
+}
+
+footer{
+	background-color: darkturquoise;
+	text-align: center;
+	font-color: black;
+	border-bottom: solid;
+	border-top: solid;
+	border-color: azure;
 }
